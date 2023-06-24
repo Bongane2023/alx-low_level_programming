@@ -1,19 +1,17 @@
 #include "main.h"
 
 /**
- * print_numbers - Print the numbers since 0 up to 9
- * Return: The numbers since 0 up to 9
+ * mul - Multiplies two integers
+ * @x: The first number to multiply
+ * @y: The second number to multiply with first number 
+ * Return: The result of multiplication between x pparam and y param
  */
 
-void print_numbers(void)
+int mul(int x, int y)
 
 {
 
-	int x;
-	for (x = 0; x <= 9; x++)
-	{
-	_putchar(x + '0');
-	}
-	_putchar('\n');
+	return (x*y);
+
 }
 
